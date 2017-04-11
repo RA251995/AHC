@@ -66,7 +66,7 @@ detectorParams.filterByConvexity = False
 
 detector = cv2.SimpleBlobDetector_create(detectorParams)
 
-cap = cv2.VideoCapture('2.mp4')
+cap = cv2.VideoCapture('vid.mp4')
 
 while True:
     ret, image = cap.read()
